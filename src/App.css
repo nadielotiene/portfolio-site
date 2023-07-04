@@ -43,14 +43,17 @@
 
 /*~~~~~~~~~~Skills~~~~~~~~~~*/
 .skills {
-  background-color: seagreen;
+  background-color: #555;
+  border: 1px solid #000;
+  border-radius: 5px;
   height: 220px;
   display: grid;
+  align-items: center;
   grid-template: 100px 100px 100px / 1fr 1fr 1fr;
   grid-column: span 6;
   gap: 20px;
-  align-items: center;
   justify-items: center;
+  padding: 15px;
   width: 100%;
 }
 
@@ -60,11 +63,14 @@
 
 /*~~~~~~~~~~Footer~~~~~~~~~~*/
 .footer {
-  background-color: slateblue;
+  background-color: #555;
+  border: 1px solid #000;
+  border-radius: 5px;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 15px;
   width: 100%;
 }
 
