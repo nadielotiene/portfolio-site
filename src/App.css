@@ -1,8 +1,13 @@
 #root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  background-image: url(/public/noise3.png);
 }
 
 .logo {
@@ -54,11 +59,33 @@
   gap: 20px;
   justify-items: center;
   padding: 15px;
-  width: 100%;
+  width: 50%;
+  background-image: url(/public/noise4.png);
 }
 
 .skills-logos {
-  width: 100px;
+  width: 8vw;
+}
+
+/*~~~~~~~~~~About~~~~~~~~~~*/
+.about {
+  background-color: #555;
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: justify;
+  max-width: 50%;
+  background-image: url(/public/noise4.png);
+}
+
+.about-p {
+  font-size: 1.3vw;
+  max-width: 90%;
+  padding: 15px;
 }
 
 /*~~~~~~~~~~Footer~~~~~~~~~~*/
@@ -71,9 +98,10 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 15px;
-  width: 100%;
+  width: 50%;
+  background-image: url(/public/noise4.png);
 }
 
 .footer-logos {
-  width: 100px;
+  width: 8vw;
 }
