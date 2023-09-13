@@ -15,7 +15,7 @@ function App() {
         </a>
       </div>
       <h1>Kenneth Velázquez</h1>
-      <h2>Frontend Web Developer</h2>
+      <h2>Frontend Developer</h2>
     </>
   )
 }

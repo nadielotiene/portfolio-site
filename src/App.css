@@ -1,13 +1,11 @@
 #root {
+  background-image: url(/noise3.png);
   display: flex;
   align-items: center;
   flex-direction: column;
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 1rem; */
   text-align: center;
-
-  background-image: url(/public/noise3.png);
 }
 
 .logo {
@@ -46,62 +44,100 @@
   color: #888;
 }
 
-/*~~~~~~~~~~Skills~~~~~~~~~~*/
-.skills {
-  background-color: #555;
-  border: 1px solid #000;
-  border-radius: 5px;
-  height: 220px;
-  display: grid;
-  align-items: center;
-  grid-template: 100px 100px 100px / 1fr 1fr 1fr;
-  grid-column: span 6;
-  gap: 20px;
-  justify-items: center;
-  padding: 15px;
-  width: 50%;
-  background-image: url(/public/noise4.png);
-}
+/* .skills, .portfolio, .footer {
 
-.skills-logos {
-  width: 8vw;
-}
+} */
 
 /*~~~~~~~~~~About~~~~~~~~~~*/
 .about {
   background-color: #555;
+  background-image: url(/noise4.png);
   border: 1px solid #000;
   border-radius: 5px;
   height: 300px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  overflow: scroll;
   padding: 15px;
-  text-align: justify;
-  max-width: 50%;
-  background-image: url(/public/noise4.png);
+  text-align: left;
+  max-width: 75%;
 }
 
 .about-p {
-  font-size: 1.3vw;
+  font-size: 150%;
   max-width: 90%;
-  padding: 15px;
 }
 
-/*~~~~~~~~~~Footer~~~~~~~~~~*/
-.footer {
+/*~~~~~~~~~~Portfolio~~~~~~~~~~*/
+.portfolio {
   background-color: #555;
+  background-image: url(/noise4.png);
   border: 1px solid #000;
   border-radius: 5px;
-  height: 100px;
+  height: 600px;
+  display: grid;
+  align-items: center;
+  grid-template: 100px 100px 100px / 1fr 1fr 1fr;
+  grid-column: span 6;
+  gap: 80px 0;
+  justify-items: center;
+  /* margin: 10px; */
+  padding: 15px;
+  width: 75%;
+}
+
+.portfolio > a {
+  margin-top: 120px;
+}
+
+.app-logos, h4 {
+  margin: 0;
+}
+
+/*~~~~~~~~~~Socials~~~~~~~~~~*/
+.socials {
+  background-color: #555;
+  background-image: url(/noise4.png);
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 8em;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 15px;
-  width: 50%;
-  background-image: url(/public/noise4.png);
+  width: 75%;
 }
 
-.footer-logos {
-  width: 8vw;
+.footer-logos, .app-logos {
+  width: 80px;
+}
+
+/*~~~~~~~~~~Skills~~~~~~~~~~*/
+.skills {
+  background-color: #555;
+  background-image: url(/noise4.png);
+  border: 1px solid #000;
+  border-radius: 5px;
+  /* height: 220px; */
+  height: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  /* display: grid;
+  align-items: center;
+  grid-template: 100px 100px 100px / 1fr 1fr 1fr;
+  grid-column: span 6;
+  gap: 20px;
+  justify-items: center; */
+
+  margin-bottom: 50px;
+  padding: 15px;
+  width: 75%;
+}
+
+.skills-logos {
+  width: 80px;
+  /* margin: 60px 0; */
 }
