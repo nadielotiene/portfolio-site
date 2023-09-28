@@ -1,7 +1,7 @@
 import React from 'react'
 import airbnb from '/airbnb.png'
 import quiz from '/quiz.png'
-import scoreboard from '/scoreboard.png'
+import dashboard from '/dashboard.png'
 import user from '/user.png'
 import beachball from '/beachball.png'
 import drum from '/drum.png'
@@ -21,10 +21,10 @@ function Portfolio() {
                 <img src={quiz} className="app-logos" alt="Quiz app" />
                 <h4>Quiz app</h4>
             </a> */}
-            {/* <a href="" target="_blank">
-                <img src={scoreboard} className="app-logos" alt="Scoreboard app" />
-                <h4>Scoreboard app</h4>
-            </a> */}
+            <a href="https://nadielotiene.github.io/personal-dashboard/" target="_blank">
+                <img src={dashboard} className="app-logos" alt="dashboard app" />
+                <h4>Dashboard app</h4>
+            </a>
             {/* <a href="" target="_blank">
                 <img src={user} className="app-logos" alt="user app" />
                 <h4>User app</h4>
